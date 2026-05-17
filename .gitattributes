@@ -17,3 +17,13 @@ pubspec.lock linguist-vendored
 *.cpp linguist-vendored
 *.h linguist-vendored
 *.cc linguist-vendored
+
+# Ocultar archivos de configuración de CMake
+*cmake* linguist-vendored
+*.cmake linguist-vendored
+CMakeLists.txt linguist-vendored
+
+# Por si acaso, ocultar también archivos de configuración de Gradle (Android) o CocoaPods (iOS)
+*.gradle linguist-vendored
+*.properties linguist-vendored
+Podfile* linguist-vendored

@@ -3,7 +3,7 @@ android/**/* linguist-vendored
 ios/**/* linguist-vendored
 web/**/* linguist-vendored
 windows/**/* linguist-vendored
-macof/**/* linguist-vendored
+macos/**/* linguist-vendored
 linux/**/* linguist-vendored
 
 # Ocultar archivos de configuración de Flutter y paquetes de dependencias
@@ -12,3 +12,8 @@ linux/**/* linguist-vendored
 .flutter-plugins linguist-vendored
 .flutter-plugins-dependencies linguist-vendored
 pubspec.lock linguist-vendored
+
+# Por si las dudas, ignorar archivos específicos de C++ en cualquier subcarpeta nativa
+*.cpp linguist-vendored
+*.h linguist-vendored
+*.cc linguist-vendored

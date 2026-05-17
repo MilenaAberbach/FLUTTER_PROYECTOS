@@ -1,0 +1,14 @@
+# Ocultar todo el código generado para plataformas nativas
+android/**/* linguist-vendored
+ios/**/* linguist-vendored
+web/**/* linguist-vendored
+windows/**/* linguist-vendored
+macof/**/* linguist-vendored
+linux/**/* linguist-vendored
+
+# Ocultar archivos de configuración de Flutter y paquetes de dependencias
+.metadata linguist-vendored
+.packages linguist-vendored
+.flutter-plugins linguist-vendored
+.flutter-plugins-dependencies linguist-vendored
+pubspec.lock linguist-vendored
